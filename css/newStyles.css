@@ -1,0 +1,108 @@
+@font-face {
+  font-family: Gloria;
+  src: url("../fonts/GloriaHallelujah.ttf");
+}
+@font-face {
+  font-family: Poppins;
+  src: url("../fonts/Poppins-Regular.ttf");
+}
+@font-face {
+  font-family: Poppins-light;
+  src: url("../fonts/Poppins-ExtraLight.ttf");
+}
+.span-blue {
+  color: #98a6f7;
+  font-size: 1.5em;
+  font-family: Poppins;
+}
+.span-green {
+  color: #8ec259;
+  font-size: 10em;
+  font-family: Poppins;
+}
+.span-title {
+  font-size: 1.5em;
+}
+.second-section {
+  background: url("../images/capa-facebook.png") no-repeat;
+  height: 100vh;
+}
+.third-section {
+  background: url("../images/capa-verde.png") no-repeat;
+  height: 100vh;
+}
+.main-nzt-music {
+  background: url("../images/nzt-music-bg.jpg") no-repeat;
+  height: 100vh;
+  margin-bottom: 100px;
+}
+.second-section > .overlay {
+  display: none;
+}
+.quem-somos {
+  width: 50%;
+}
+.text {
+  font-size: 20px;
+}
+.fala-pastor {
+  height: 30%;
+  background: url("../images/pastor.png") no-repeat;
+}
+.main-contact {
+  background: url("../images/contact.png") no-repeat;
+  height: 50vh;
+}
+.naza,
+.teen {
+  font-family: Poppins;
+  font-size: 10em;
+  letter-spacing: 30px;
+}
+.music {
+  font-family: Poppins-light;
+  font-size: 10em;
+  letter-spacing: 60px;
+}
+
+@media (max-width: 980px) {
+  .naza,
+  .teen {
+    font-family: Poppins;
+    letter-spacing: 15px;
+    letter-spacing: 30px;
+  }
+  .music {
+    font-family: Poppins-light;
+    font-size: 1.5em;
+    letter-spacing: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .naza,
+  .teen {
+    font-family: Poppins;
+    font-size: 1.5em;
+    letter-spacing: 15px;
+  }
+  .music {
+    font-family: Poppins-light;
+    font-size: 1.5em;
+    letter-spacing: 30px;
+  }
+}
+
+@media (max-width: 650px) {
+  .naza,
+  .teen {
+    font-family: Poppins;
+    font-size: 1.5em;
+    letter-spacing: 15px;
+  }
+  .music {
+    font-family: Poppins-light;
+    font-size: 1.5em;
+    letter-spacing: 30px;
+  }
+}
