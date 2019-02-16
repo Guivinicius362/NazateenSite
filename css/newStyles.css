@@ -10,18 +10,30 @@
   font-family: Poppins-light;
   src: url("../fonts/Poppins-ExtraLight.ttf");
 }
+* {
+  font-family: "Coolvetica-Regular", arial;
+  text-transform: uppercase;
+}
+
 .span-blue {
   color: #98a6f7;
   font-size: 1.5em;
-  font-family: Poppins;
+  font-weight: bold;
+  font-family: "Coolvetica-Regular", arial;
+  text-transform: uppercase;
 }
 .span-green {
   color: #8ec259;
   font-size: 10em;
-  font-family: Poppins;
+  font-weight: bold;
+  font-family: "Coolvetica-Regular", arial;
+  text-transform: uppercase;
 }
 .span-title {
   font-size: 1.5em;
+  font-weight: bold;
+  font-family: "Coolvetica-Regular", arial;
+  text-transform: uppercase;
 }
 .second-section {
   background: url("../images/capa-facebook.png") no-repeat;
@@ -36,6 +48,10 @@
   height: 100vh;
   margin-bottom: 100px;
 }
+.main-about-us {
+  background: url("../images/about-us.png") no-repeat;
+  height: 100vh;
+}
 .second-section > .overlay {
   display: none;
 }
@@ -46,12 +62,13 @@
   font-size: 20px;
 }
 .fala-pastor {
-  height: 30%;
-  background: url("../images/pastor.png") no-repeat;
+  width: 41%;
+  margin-bottom: 5%;
+  background: url(../images/pastor.png) no-repeat;
 }
 .main-contact {
   background: url("../images/contact.png") no-repeat;
-  height: 50vh;
+  height: 66vh;
 }
 .naza,
 .teen {
@@ -64,8 +81,69 @@
   font-size: 10em;
   letter-spacing: 60px;
 }
-
+.about-us {
+  background-color: #394384;
+  position: relative;
+  top: -179px;
+  height: 40vh;
+  padding: 20px;
+}
+.about-us__p {
+  color: white;
+  margin-top: 20px;
+}
+.about-us-section {
+  background-color: white;
+}
+.or-values-section {
+  position: relative;
+  top: -150px;
+  flex-direction: column;
+}
+.or-values-section > .our-values {
+  padding: 20px;
+}
+.our-values {
+  background-color: #8ec259;
+  width: 100%;
+}
+.our-values__p {
+  margin-top: 02%;
+}
+.minsterios {
+  background: url(../images/capa-facebook.png) no-repeat;
+  height: 100vh;
+}
+.ministerios__spans {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.teste {
+  display: flex;
+  justify-content: center;
+}
+.ministerios__spans > div > span {
+  font-size: 25px;
+}
+.ministerios__spans__col > span {
+  text-align: left;
+}
+.ministerios__spans__col {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.ministerios__title {
+  font-size: 7.56em;
+}
 @media (max-width: 980px) {
+  .fala-pastor {
+    width: 70%;
+  }
   .naza,
   .teen {
     font-family: Poppins;
@@ -76,10 +154,23 @@
     font-family: Poppins-light;
     font-size: 1.5em;
     letter-spacing: 30px;
+  }
+
+  .ministerios__spans > div > span {
+    font-size: 16px;
+  }
+  .ministerios__spans {
+    justify-content: normal;
+  }
+  .ministerios__title {
+    font-size: 2em;
   }
 }
 
 @media (max-width: 768px) {
+  .fala-pastor {
+    width: 70%;
+  }
   .naza,
   .teen {
     font-family: Poppins;
@@ -90,19 +181,40 @@
     font-family: Poppins-light;
     font-size: 1.5em;
     letter-spacing: 30px;
+  }
+  .ministerios__title {
+    font-size: 1.56em;
+  }
+  .ministerios__spans {
+    justify-content: normal;
+  }
+  .ministerios__spans > div > span {
+    font-size: 16px;
   }
 }
 
 @media (max-width: 650px) {
+  .fala-pastor {
+    width: 70%;
+  }
   .naza,
   .teen {
     font-family: Poppins;
     font-size: 1.5em;
     letter-spacing: 15px;
   }
+  .ministerios__title {
+    font-size: 1.56em;
+  }
+  .ministerios__spans {
+    justify-content: normal;
+  }
   .music {
     font-family: Poppins-light;
     font-size: 1.5em;
     letter-spacing: 30px;
+  }
+  .ministerios__spans > div > span {
+    font-size: 16px;
   }
 }
